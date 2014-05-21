@@ -1,0 +1,5 @@
+name: '@ianmstew'
+markdown: redcarpet
+source: src
+destination: build
+exclude: [less]

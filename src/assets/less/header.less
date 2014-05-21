@@ -1,0 +1,38 @@
+.header {
+  &:extend(.container all);
+  padding-top: 1rem;
+}
+
+.header:after {
+  .divider;
+}
+
+.header-nav {
+  .clearfix;
+}
+
+.header-logo {
+  float: left;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.header-nav-items {
+  float: right;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.header-nav-items li {
+  display: inline;
+
+  + li {
+    margin-left: 0.5rem;
+  }
+}
