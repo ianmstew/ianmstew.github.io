@@ -3,17 +3,17 @@ module.exports = function (grunt) {
   grunt.initConfig({
 
     clean: {
-      all: ['src/assets/css', 'src/assets/vendor']
+      all: ['assets/css', 'assets/vendor']
     },
 
     less: {
       options: {
-        paths: 'src/assets/vendor/less'
+        paths: 'assets/vendor/less'
       },
 
       all: {
         files: {
-          'src/assets/css/ianmstew.css': 'src/assets/less/ianmstew.less'
+          'assets/css/ianmstew.css': 'assets/less/ianmstew.less'
         }
       }
     },
@@ -21,7 +21,7 @@ module.exports = function (grunt) {
     bower: {
       install: {
         options: {
-          targetDir: 'src/assets/vendor',
+          targetDir: 'assets/vendor',
           verbose: true,
           bowerOptions: {
             production: true
@@ -37,7 +37,7 @@ module.exports = function (grunt) {
 
       less: {
         files: [
-          'src/assets/less/**/*'
+          'assets/less/**/*'
         ],
         tasks: ['less']
       },

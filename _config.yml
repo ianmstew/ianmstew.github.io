@@ -1,5 +1,13 @@
 name: '@ianmstew'
 markdown: redcarpet
-source: src
-destination: build
-exclude: [less]
+exclude:
+  - less
+  - .gitignore
+  - README.md
+  - bower_components
+  - node_modules
+  - bower.json
+  - package.json
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js

@@ -1,4 +1,4 @@
 bower_components
 node_modules
-build
-src/assets/vendor/less
+_site
+assets/vendor/less
