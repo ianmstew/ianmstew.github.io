@@ -49,4 +49,4 @@ Every app component I create is as self-contained as possible.  App concerns are
   </p>
 </div>
 
-Send me [Tweet](https://twitter.com/ianmstew) or an [Email](mailto:ianmstew at gmail dot com).  I would love to grab coffee or a beer in [Center City Philadelphia](https://www.google.com/maps/@39.953824,-75.163214,3a,75y,193.15h,107.45t/data=!3m4!1e1!3m2!1soHXFJIZA1b8e_EMIeh0vIg!2e0), if you happen to be in town.
+Send me a [tweet](https://twitter.com/ianmstew) or an [email](mailto:ianmstew at gmail dot com).  I would love to grab coffee or a beer in [Center City Philadelphia](https://www.google.com/maps/@39.953824,-75.163214,3a,75y,193.15h,107.45t/data=!3m4!1e1!3m2!1soHXFJIZA1b8e_EMIeh0vIg!2e0), if you happen to be in town.
