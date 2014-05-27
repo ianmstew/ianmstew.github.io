@@ -3051,7 +3051,7 @@ a:hover {
   display: inline;
 }
 .header-nav-items li + li {
-  margin-left: 0.5rem;
+  margin-left: 1rem;
 }
 .page-title {
   margin-top: 0;
@@ -3101,4 +3101,10 @@ a:hover {
 }
 .footer-social li + li {
   margin-left: 1.5rem;
+}
+.design-attribution {
+  margin-top: 2rem;
+  color: #999999;
+  font-size: 12px;
+  text-align: center;
 }
