@@ -17,7 +17,7 @@ Seriously, everything about the front end.  Especially client side Javascript us
   </p>
 </div>
 
-No, really.  [JSHint](https://github.com/jshint/jshint/) keeps my code lint-free, [JSCS](https://github.com/mdevils/node-jscs) enforces my style guide, and [Recess](https://github.com/twitter/recess) enforces CSS property order.  This goes beyond a personal obsession and into the foundations for a scalable team who authors maintainable, visually compatible code.
+No, really.  [JSHint](https://github.com/jshint/jshint/) keeps my code lint-free, [JSCS](https://github.com/mdevils/node-jscs) enforces my style guide.  This goes beyond a personal obsession and into the foundations for a scalable team who authors maintainable, visually compatible code.
 
 <div>
   <p>
