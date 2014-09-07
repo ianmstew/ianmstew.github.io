@@ -1,0 +1,17 @@
+.body {
+  &:extend(.container all);
+}
+
+// Sticky footer
+
+.body {
+  min-height: 100%;
+
+  /* Equal to footer height */
+  margin-bottom: -@footer-height; 
+}
+
+/* Equal to footer height */
+.body:after {
+  height: @footer-height; 
+}

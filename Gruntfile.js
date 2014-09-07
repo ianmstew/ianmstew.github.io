@@ -45,12 +45,14 @@ module.exports = function (grunt) {
       // Start livereload server at http://localhost:35729/livereload.js
       livereload: {
         options: {
-          cwd: 'build',
+          cwd: '_site',
           livereload: true
         },
 
+        // Note, html files are ALL rewritten and "changed" whenever any file is modified,
+        // so this effectively refreshes the page no matter what.
         files: [
-          'assets/css/*.css'
+          'index.html'
         ]
       }
     }

@@ -676,8 +676,8 @@ address {
   line-height: 1.42857143;
 }
 .container,
-.body,
 .header,
+.body,
 .footer {
   margin-right: auto;
   margin-left: auto;
@@ -686,24 +686,24 @@ address {
 }
 @media (min-width: 592px) {
   .container,
-  .body,
   .header,
+  .body,
   .footer {
     width: 552px;
   }
 }
 @media (min-width: 720px) {
   .container,
-  .body,
   .header,
+  .body,
   .footer {
     width: 680px;
   }
 }
 @media (min-width: 1104px) {
   .container,
-  .body,
   .header,
+  .body,
   .footer {
     width: 680px;
   }
@@ -1266,10 +1266,10 @@ address {
 .container-fluid:after,
 .row:before,
 .row:after,
-.body:before,
-.body:after,
 .header:before,
 .header:after,
+.body:before,
+.body:after,
 .footer:before,
 .footer:after {
   content: " ";
@@ -1279,8 +1279,8 @@ address {
 .container:after,
 .container-fluid:after,
 .row:after,
-.body:after,
 .header:after,
+.body:after,
 .footer:after {
   clear: both;
 }
@@ -3001,7 +3001,12 @@ html {
 }
 body {
   padding: 2rem 1.5rem;
+  padding-bottom: 0;
   line-height: 1.5;
+}
+html,
+body {
+  height: 100%;
 }
 a:hover {
   text-decoration: none;
@@ -3053,25 +3058,17 @@ a:hover {
 .header-nav-items li + li {
   margin-left: 1rem;
 }
-.page-title {
-  margin-top: 0;
-  margin-bottom: 2rem;
+.body {
+  min-height: 100%;
+  /* Equal to footer height */
+  margin-bottom: -100px;
 }
-.page-body a {
-  border-bottom: 1px solid #ddd;
+/* Equal to footer height */
+.body:after {
+  height: 100px;
 }
-.page-body a:hover {
-  border-bottom: 1px solid black;
-}
-.page-body p:first-child {
-  font-size: 1.25rem;
-}
-.page-divider {
-  content: "";
-  width: 100px;
-  height: 1px;
-  margin: 3rem auto;
-  background-color: #eeeeee;
+.footer {
+  height: 100px;
 }
 .footer:before,
 .footer:after {
@@ -3107,4 +3104,24 @@ a:hover {
   color: #999999;
   font-size: 12px;
   text-align: center;
+}
+.page-title {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.page-body a {
+  border-bottom: 1px solid #ddd;
+}
+.page-body a:hover {
+  border-bottom: 1px solid black;
+}
+.page-body .stand-out {
+  font-size: 1.25rem;
+}
+.page-divider {
+  content: "";
+  width: 100px;
+  height: 1px;
+  margin: 3rem auto;
+  background-color: #eeeeee;
 }
