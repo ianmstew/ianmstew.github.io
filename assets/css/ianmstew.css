@@ -676,7 +676,6 @@ address {
   line-height: 1.42857143;
 }
 .container,
-.header,
 .body,
 .footer {
   margin-right: auto;
@@ -686,7 +685,6 @@ address {
 }
 @media (min-width: 592px) {
   .container,
-  .header,
   .body,
   .footer {
     width: 552px;
@@ -694,7 +692,6 @@ address {
 }
 @media (min-width: 720px) {
   .container,
-  .header,
   .body,
   .footer {
     width: 680px;
@@ -702,7 +699,6 @@ address {
 }
 @media (min-width: 1104px) {
   .container,
-  .header,
   .body,
   .footer {
     width: 680px;
