@@ -7,3 +7,5 @@ layout: page
 </p>
 
 Check out [stuff I've shown people](/presentations), and [random awesomeness](/fun).
+
+Github pages recompiled Jekyll!
