@@ -3,7 +3,8 @@ layout: page
 ---
 
 <p class="stand-out">
-  Hi, I'm a front end engineer whose favorite thing is architecting modular Javascript apps.
+  Hi, I'm a front end engineer whose favorite thing is architecting modular Javascript apps and building the tools behind them.
 </p>
-
-Check out [stuff I've shown people](/presentations), and [random awesomeness](/fun).
+<p class="stand-out">
+  I love <a href="projects">what I do</a>.
+</p>

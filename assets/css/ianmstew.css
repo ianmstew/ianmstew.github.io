@@ -3007,6 +3007,19 @@ body {
 a:hover {
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.618em;
+  margin-bottom: 1em;
+}
+h2 {
+  padding-bottom: 0.236em;
+  border-bottom: 1px solid #ddd;
+}
 .header {
   padding-top: 1rem;
 }
@@ -3095,12 +3108,6 @@ a:hover {
 .footer-social li + li {
   margin-left: 1.5rem;
 }
-.design-attribution {
-  margin-top: 2rem;
-  color: #999999;
-  font-size: 12px;
-  text-align: center;
-}
 .page-title {
   margin-top: 0;
   margin-bottom: 2rem;
@@ -3120,4 +3127,44 @@ a:hover {
   height: 1px;
   margin: 3rem auto;
   background-color: #eeeeee;
+}
+.marionette-logo__link {
+  border-bottom: none !important;
+}
+.marionette-logo__link:hover {
+  border-bottom: none !important;
+}
+.marionette-logo__primary {
+  height: 35px;
+}
+.marionette-logo__text {
+  height: 25px;
+  margin-left: -7px;
+}
+.inspector-logo {
+  margin-left: 10px;
+}
+.inspector-logo__primary {
+  height: 25px;
+}
+.state-logo {
+  height: 20px;
+  margin-left: 10px;
+  vertical-align: bottom;
+}
+.sesame-logo {
+  height: 40px;
+  margin-left: 10px;
+  vertical-align: text-bottom;
+}
+.squareknot-logo {
+  height: 30px;
+}
+.regulations-logo {
+  height: 35px;
+}
+.api-network-logo {
+  height: 25px;
+  margin-left: 10px;
+  vertical-align: text-bottom;
 }

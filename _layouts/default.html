@@ -1,7 +1,10 @@
+---
+---
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.title }}</title>
+    <title>{% if page.title %}{{ page.title }} &middot; {% endif %}@ianmstew</title>
     <link rel="stylesheet" href="/assets/css/ianmstew.css" />
   </head>
   <body>
